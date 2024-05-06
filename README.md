@@ -1,6 +1,4 @@
-Sure, here's a basic README for your `ChromeDriverManager` class:
 
----
 
 # ChromeDriverManager
 
