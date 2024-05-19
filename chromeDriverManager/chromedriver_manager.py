@@ -131,6 +131,9 @@ class ChromeDriverManager:
             return full_path
         except Exception as e:
             print("Installation failed:", e)
+            if self._get_last_downloaded_version():
+                print(f"Installation failed but i found a installed version {self._get_last_downloaded_version()}")
+                return self._get_download_folder()
             return None
 
     def _get_download_folder(self) -> str:

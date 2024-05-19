@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='chromeDriverManager',
-    version='1.0.0',
+    version='1.0.1',
     author='Seyed Ali Hosseini',
     author_email='iamseyedalipro@gmail.com',
     description='A class for managing the installation and updating of the chromedriver executable.',
